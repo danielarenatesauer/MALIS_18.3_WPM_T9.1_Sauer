@@ -12,7 +12,7 @@ Diese kapillare inhaltliche Erschliessung, die von den wenigsten Bibliotheken du
 ## Probleme
 ### Problem 1: Tagungsbeiträge
 Die Katalogisierung von Tagungsbeiträgen wurde ganz eingestellt. Als Kompromiss wurde beschlossen sowohl bei Tagungsbänden als auch bei Werken mehrerer Autoren Inhaltsverzeichnisse in das dafür vorgesehene MARC21 Feld aufzunehmen (Formatted Contents Note 505), die es dem Nutzer wenigstens erlauben, die gesuchten Titel oder Autoren im Zuge einer allgemeinen Suche wiederzufinden. 
-Besonders problematisch wird diesbezüglich befunden, dass die Nutzer nur nebenbei (inoffiziell) von dieser Änderung in Kenntnis gesetzt wurden/werden und somit womöglich die Suchergebnisse falsch einschätzen. 
+Besonders problematisch wird diesbezüglich befunden, dass die Nutzer nur nebenbei (inoffiziell) von dieser Änderung in Kenntnis gesetzt wurden/werden und somit womöglich die Suchergebnisse falsch einschätzen. Ferner tragen die Autoren der Beiträgen auf diese Weise nicht zu einem Update oder Generierung der/einer entsprechenden Authority bei.
 
 ### Problem 2: Periodika/Core Periodicals
 Die Einteilung in Core periodicals und Zeitschriften sekundärer Bedeutung und deren differenzierte Erschliessung bewirkte eine Reduzierung der Katalogisate auf die Artikel der als primär eingestuften Periodika. Die Liste der Core Periodicals wurde anhand des Häufigkeitsvorkommens der in den Katalog bis zu diesem Zeitpunkt aufgenommenen Artikel erstellt. Auch wenn die Liste de facto den von den Nutzern am meisten aufgerufenen Zeitschriften entspricht, ist sie dennoch nicht öffentlich zugängig, wird bei Befragung aber herausgegeben.
@@ -39,6 +39,8 @@ Diese Methodik soll nun einer Reihe von weiteren Herausgebern wissenschaftlicher
 Derzeit enhält der Ablauf der Prozedur noch eine Reihe von Tätigkeiten die manuell ausgeführt werden müssen:
 MarcEdit Commands Ablauf
 Nachbearbeitung der Katalogeinträge: manuelle Zuweisung von Keywords usw.
+
+Frage an Juliane: Angenommen wir überzeugen mehrere Herausgeber von dem win-win Charakter dieser Initiative und wir bekämen mehrere/viele entsprechende excel files zugeschickt, wie würdest Du eine Vereinheitlichung angehen?
 
 
 
