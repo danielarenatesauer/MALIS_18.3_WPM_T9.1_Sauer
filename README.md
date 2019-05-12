@@ -40,7 +40,7 @@ Derzeit enhält der Ablauf der Prozedur noch eine Reihe von Tätigkeiten die man
 MarcEdit Commands Ablauf
 Nachbearbeitung der Katalogeinträge: manuelle Zuweisung von Keywords usw.
 
-Frage an Juliane: Angenommen wir überzeugen mehrere Herausgeber von dem win-win Charakter dieser Initiative und wir bekämen mehrere/viele entsprechende excel files zugeschickt, wie würdest Du eine Vereinheitlichung angehen?
+Frage an Juliane: Angenommen wir überzeugen mehrere Herausgeber von dem win-win Charakter dieser Initiative und wir bekämen mehrere/viele entsprechende excel files zugeschickt, hättest Du einen Vorschlag wie wir eine eine solche Vereinheitlichung angehen könnten ohne ein manuelles Copy+Paste (das ist bei 5-10 Files noch denkbar - aber bei 50 oder 100 könnte es beschwerlich werden...
 
 
 
