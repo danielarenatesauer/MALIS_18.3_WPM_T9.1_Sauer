@@ -26,11 +26,11 @@ Möglicherweise kÖnnte das folgende TOOL mit welchem Aufsätze aus thematisch e
 http://www.multisuchsystem.de/ContentsLit/contentsLit2a.html
 
 ### Lösungsansatz Problem 2
-Muß weiterentwickelt werden - derzeit einzige vorgeschlagene Besserung des Status Quo: Inkenntnissetzung der Nutzer von der Liste der Zeitschriften, von denen:
+Muß weiterentwickelt werden - derzeit einzige vorgeschlagene Besserung des Status Quo: Inkenntnissetzung der Nutzer von der unterschiedlichen Aufbereitung der Zeitschrifteneinträge im Katalog. Insbesonders muss dem Nutzer klar gemacht werden von welchen Zeitschriften:
 - systhematisch Analytika erstellt werden
 - ausgewählte Analytika erstellt werden
 - nur bis zu einem bestimmten Zeitpunkt Analytika erstellt wurden
-- Zeitschriften, deren Abbonement abgebrochen wurde
+Ferner muß eine Liste von Zeitschriften vorliegen, deren Abbonement zu einem bestimmten Zeitpunkut abgebrochen wurde. An diese Information gelangt der Nutzer zwar auch durch Konsultation des entsprechenden Katalogeintrags, aber es muß angenommen werden, dass die wenigsten Nutzer sich die Mühe machen werden, sie im Katalog zu suchen.
 
 ### Lösungsansatz Problem 3
 Nach wiederholter Ansprache dieses Problems im Laufe der letzten Jahre wurde ein vorgeschlagener Lösungsansatz in Betracht gezogen. Anbetracht der Tatsache, dass der Arbeitsaufwand für die zuständigen Mitarbeiter der Bibliothek nicht (oder nur in geringem Maß) gesteigert werden kann, wurde vorgeschlagen, den grossen Teil des Aufwandes dem Herausgeber, bzw den einzelnen Autoren zu übertragen. Praktisch gesehen wurde ein Mapping der wichtigsten Marc Felder vorgenommen, d.h. eine Excel Datei erstellt, in die vom Herausgeber selbst die wichtigsten bibliographischen Informationen der einzelnen Artikel (Titel, Autor, Erscheinungsdatum, Seitenzahl, Abstract usw.) eingetragen werden sollen, damit diese mit der Hilfe von dem Metadaten Editierungssofware MarcEdit blockweise von uns in den Katalog eingespeist werden können.
@@ -53,7 +53,7 @@ Derzeit enthält der Ablauf der Prozedur noch eine relativ lange Reihe von Täti
 - File als txt speichern. Dabei muss encoding UTF 8 ausgewählt werden
 - die file extension von txt in mrk ändern
 - vom File Menü den Befehl Compile to Marc ausführen
-- in Koha das ensprechende framework auswählen (serial analytics)
+- in Koha das ensprechende framework auswählen (framework für'serial analytics')
 - den Befehl Import this batch into catalogue ausführen
 
 Nachdem diese Reihe von Ausführungen durchlaufen ist, müssen im Katalog noch zusätzliche Felder nachträglich händisch ausgefüllt werden, z.B Acquisition Number, Datum, Name des Katalogisierenden und gegebenfalls zusätzliche Zuweisung von ICCROM Keywords.
