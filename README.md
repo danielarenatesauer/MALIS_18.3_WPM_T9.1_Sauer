@@ -35,11 +35,33 @@ Die Fachzeitschrift CeROArt, die seit 2007 mit einer Creative Commons Attributio
 ### Verbesserungsvorschlag des Lösungsansatzes Problem 3
 Diese Methodik soll nun einer Reihe von weiteren Herausgebern wissenschaftlicher Zeitschriften im Bereich Konservierung/Restaurierung von Kulturgütern vorgeschlagen werden, so z.B. den Herausgebern staatlicher oder regionaler Publikationen, wie zum Beispiel den Denkmalpflegeämtern, aber auch kleinen, privaten Verlegern, wie z.B. Recupero e Conservazione https://www.recmagazine.it/ 
 
-Derzeit enthält der Ablauf der Prozedur noch eine Reihe von Tätigkeiten die manuell ausgeführt werden müssen:
-MarcEdit Commands Ablauf
-Nachbearbeitung der Katalogeinträge: manuelle Zuweisung von Keywords usw.
+Derzeit enthält der Ablauf der Prozedur noch eine relativ lange Reihe von Tätigkeiten, die manuell ausgeführt werden müssen:
 
-Frage an Juliane: Angenommen wir überzeugen mehrere Herausgeber von dem win-win Charakter dieser Initiative und wir bekämen mehrere/viele entsprechende excel files zugeschickt, hättest Du einen Vorschlag wie wir eine eine solche Vereinheitlichung angehen könnten ohne ein manuelles Copy+Paste (das ist bei 5-10 Files noch denkbar - aber bei 50 oder 100 könnte es beschwerlich werden...
+- MarcEdit Tool Delimited text Translator öffnen
+- das Excel File, das importiert werden soll auswählen (es muss ein xls file sein)
+- ein Output file auswählen
+- UTF encoded Kästchen anklicken
+- ein Template erstellen und die einzelnen Felder für das mapping in Marc hinzufügen (derzeit werden für den Import von Zeitschriftenartikeln ca 25-30 Felder genutzt. Das Template kann natürlich wieder verwendet und später auch beliebig verändert werden)
+- einen Output kreieren
+- bei dem Output manuell die ersten 2 Einträge entfernen, die den ersten beiden Reihen im Excel File entsprechen (Reihe 1: Überschrift, Reihe 2: kurze Erläuterung, wie das Feld ausgefüllt werden soll)
+- File als txt speichern. Dabei muss encoding UTF 8 ausgewählt werden
+- die file extension von txt in mrk ändern
+- vom File Menü den Befehl Compile to Marc ausführen
+- in Koha das ensprechende framework auswählen (serial analytics)
+- den Befehl Import this batch into catalogue ausführen
+
+Nachdem diese Reihe von Ausführungen durchlaufen ist, müssen im Katalog noch zusätzliche Felder nachträglich händisch ausgefüllt werden, z.B Acquisition Number, Datum, Name des Katalogisierenden und gegebenfalls zusätzliche Zuweisung von ICCROM Keywords.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
